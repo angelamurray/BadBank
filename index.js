@@ -89,7 +89,7 @@ app.get('/account/deposit/:email/:amount', function (req, res) {
     } else{
         newbalance= user.value().balance + amount;
         user.assign({balance: newbalance}).write();
-        user.value().transactions.push(new Date() + ' Deposit: $' + amount + ' New balance: $' + newbalance + '\n');
+        user.value().transactions.push(new Date() + ' Deposit: $' + amount + ' New balance: $' + newbalance);
         console.log(user.value());
         res.send(`Deposit successful. Your new balance is $${user.value().balance}`);
     }
@@ -112,7 +112,7 @@ app.get('/account/withdraw/:email/:amount', function (req, res) {
     } else{
         newbalance= user.value().balance - amount;
         user.assign({balance: newbalance}).write();
-        user.value().transactions.push(new Date() + ' Withdrawal: $' + amount + ' New balance: $' + newbalance + '\n');
+        user.value().transactions.push(new Date() + ' Withdrawal: $' + amount + ' New balance: $' + newbalance);
         console.log(user.value());
         res.send(`Withdrawl successful. Your new balance is $${user.value().balance}`);
     }
