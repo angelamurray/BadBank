@@ -3,11 +3,35 @@
     {
       "name": "Angela Murray",
       "email": "ang@gmail.com",
-      "balance": 0,
+      "balance": -3,
       "password": "123",
       "transactions": [
-        "Thu Oct 22 2020 22:43:14 GMT-0400 (Eastern Daylight Time) Deposit: $2 New balance: $2\n"
+        "Thu Oct 22 2020 22:43:14 GMT-0400 (Eastern Daylight Time) Deposit: $2 New balance: $2\n",
+        "Thu Oct 22 2020 22:43:28 GMT-0400 (Eastern Daylight Time) Withdrawal: $2 New balance: $0\n"
       ]
+    },
+    {
+      "name": "peter",
+      "email": "peter@mit.edu",
+      "balance": 90,
+      "password": "one",
+      "transactions": [
+        "Thu Oct 22 2020 22:56:01 GMT-0400 (Eastern Daylight Time) Deposit: $100 New balance: $100\n"
+      ]
+    },
+    {
+      "name": "john",
+      "email": "john@mit.edu",
+      "balance": 0,
+      "password": "two",
+      "transactions": []
+    },
+    {
+      "name": "abel",
+      "email": "abel@mit.edu",
+      "balance": 0,
+      "password": "three",
+      "transactions": []
     }
   ]
 }
