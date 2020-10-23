@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    {
+      "name": "Angela Murray",
+      "email": "ang@gmail.com",
+      "balance": 0,
+      "password": "123",
+      "transactions": [
+        "Thu Oct 22 2020 22:43:14 GMT-0400 (Eastern Daylight Time) Deposit: $2 New balance: $2\n"
+      ]
+    }
+  ]
+}
